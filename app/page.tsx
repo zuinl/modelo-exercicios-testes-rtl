@@ -13,7 +13,7 @@ export default function Home() {
       </main>
       <footer className={styles.footer}>
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://drive.google.com/drive/folders/1tXfmzLL9IYpwnpKWF5KVc-dzxJd0ESvT?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >

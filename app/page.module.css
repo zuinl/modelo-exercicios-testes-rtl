@@ -13,7 +13,7 @@
   min-height: 100svh;
   padding: 80px;
   gap: 64px;
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -48,20 +48,30 @@
   margin-bottom: 8px;
 }
 
-.main code {
-  font-family: inherit;
-  background: var(--gray-alpha-100);
-  padding: 2px 4px;
-  border-radius: 4px;
-  font-weight: 600;
+.main label {
+  font-weight: bold;
+}
+
+.main input {
+  background-color: #494949;
+  padding: 8px;
+  font-family: var(--font-geist-mono);
+  border: 1px solid white;
+}
+
+.main h4 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(67, 67, 207);
 }
 
 .ctas {
   display: flex;
+  justify-content: center;
   gap: 16px;
 }
 
-.ctas a {
+.ctas a, .ctas button {
   appearance: none;
   border-radius: 128px;
   height: 48px;
@@ -79,9 +89,10 @@
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
+  font-family: var(--font-geist-mono);
 }
 
-a.primary {
+a.primary, button.primary {
   background: var(--foreground);
   color: var(--background);
   gap: 8px;

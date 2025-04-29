@@ -13,7 +13,7 @@ O objetivo geral deste repositório é servir como modelo/esqueleto inicial púb
 
 ## 🚀 Como começar
 
-1. Dê um `fork` ou baixe este repositório (não serão aceitos commits/PRs neste reposítório remoto, portanto deve criar o seu próprio);
+1. Dê um `fork` ou baixe este repositório (não serão aceitos commits/PRs **com solução dos testes** neste reposítório remoto, portanto deve criar o seu próprio);
 2. Instale as dependências usando o *package manager* de sua preferência (aqui foi usado o `npm`);
 3. Execute o comando `npm run dev` e acesse `http://localhost:3000` no seu browser;
 4. Navegue a aplicação e o código, compreendendo sua estrutura e funcionamento;
